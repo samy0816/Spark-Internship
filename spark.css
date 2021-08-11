@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Century Gothic;
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(spark.jpg);
+height :105vh;
+background size:100px ;
+background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px 50px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+
+}
+.logo img{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+.main{
+    max-width: 1700px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    padding: 15px 32px;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid transparent;
+}
+.btn {
+border: 1px solid transparent;
+top:60%;
+left:50%;
+padding:10px 50px;
+color:black;
+text-decoration: none;
+transition: 0.6s ease;
+
+}
+.btn:hover{
+    background-color:salmon;
+    color:black;
+
+}
+.button1{
+    border: 2px solid black;
+    position: absolute;
+    padding: 45px 50px;
+    top:75%;
+    left:49%;
+    transform: translate(-50%,-50%);
+    border: 1px solid transparent;
+}
+.logo1 img{
+    float: left;
+    width: 100px;
+    height: auto;
+    padding:50px 400px;
+}
+.title1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title1 h1
+{
+color:white;
+font-size:70px;
+font-family:'Times New Roman', Times, serif;
+}
+}
+    
+    
+}
